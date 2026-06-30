@@ -1,0 +1,17 @@
+export default {
+  nav: { home: 'Ana səhifə', menu: 'Menyu', story: 'Haqqımızda', gallery: 'Qalereya', contact: 'Əlaqə' },
+  hero: { subtitle: 'Müasir Mətbəx', title1: 'Müasir', title2: 'Minimal', description: 'Təmiz ingredientlər. Düşünülmüş texnika. Zərif dadlar.', cta: 'Fəlsəfəmizi kəşf edin' },
+  reservation: { title: 'Masa Rezerv Et', date: 'Tarix', time: 'Saat', guests: 'Qonaqlar', name: 'Ad', phone: 'Telefon və ya Email', occasion: 'Münasibət / Xüsusi İstək', button: 'Masa Rezerv Et', success: 'Rezervasiya təsdiqləndi!', placeholderName: 'Tam adınız', placeholderPhone: '+994 50 123 45 67', placeholderOccasion: 'İldönümü' },
+  experiences: { title: 'Təcrübələr', viewAll: 'Hamısına bax' },
+  story: { subtitle: 'Bizim Hekayəmiz', title: 'Tada və harmoniyaya həsr olunmuşdur.', description: 'ZIVAR-da biz ingredientlərin saflığını və detalların gözəlliyini qeyd edirik. Mətbəximiz təbiiətə və fəsillərə hörmətlə hazırlanmış ənənə və innovasiya arasında dialoqdur.', cta: 'Hekayəmizi oxuyun' },
+  gallery: { title: 'Qalereya', subtitle: 'Yaradılmış atmosfer.', viewFull: 'Tam qalereyaya bax' },
+  contact: { title: 'Bizi Ziyarət Edin', subtitle: 'Sizi qarşılamaqdan məmnun olarıq.', address: 'Port Baku Qülləsi, Neftçilər pr. 153. Bakı, AZ1010, Azərbaycan', phone: '+994 12 404 00 00', email: 'info@zivar.az', hours: 'B.e – B: 12:00 – 00:00', instagram: 'İnstaqram', followUs: 'Bizi İzləyin', at: '@zivar.restaurant' },
+  newsletter: { title: 'İlhamlanın', description: 'Mövsümi menyular, tədbirlər və eksklüziv dəvətlər üçün abunə olun.', placeholder: 'Email ünvanınız', button: 'Abunə Ol' },
+  footer: { rights: '© 2026 ZIVAR Restoran. Bütün hüquqlar qorunur.', privacy: 'Məxfilik Siyasəti', terms: 'İstifadə Şərtləri', careers: 'Karyera', press: 'Mətbuat', backToTop: 'Yuxarı' },
+  modal: {
+    seasonalMenu: { title: 'Mövsümi Menyu', description: 'Təzə ingredientlərdən ilhamlanmış mövsümi seçim.', items: ['5 təamlıq menyu', 'Bazardan asılı olaraq dəyişir', 'Vegeterian seçimlər', 'Rezervasiya tövsiyə olunur', 'Hər gün 12:00 – 22:30'], bottom: [{ label: 'Fəsil', value: 'Yay seçimi' }, { label: 'Geyim Kodu', value: 'Ağıllı Zərif' }, { label: 'Qeyd', value: 'Təzə yerli məhsullar' }] },
+    chefTasting: { title: 'Şefin Dəqiqəsi', description: 'Şef tərəfindən hazırlanmış seçilmiş dəqiqə proqramı.', items: ['7 təamlıq menyu', 'Şefin seçdiyi yeməklər', 'Rezervasiya tələb olunur', 'Şərq çərçivəsi mövcuddur', 'Hər gün 17:00 – 22:30'], bottom: [{ label: 'Təcrübə', value: 'Şefin seçimi' }, { label: 'Geyim Kodu', value: 'Ağıllı Zərif' }, { label: 'Xidmət', value: 'İncə və dərin' }] },
+    desserts: { title: 'Şirniyyatlar', description: 'Fərqləndirici şirniyyatların incə seçimi.', items: ['Fərqləndirici şirniyyatlar', 'Mövsümi şirniyyatlar', 'Vegeterian seçimlər', 'Paylaşmaq və ya tək', 'Hər gün 12:00 – 22:30'], bottom: [{ label: 'Seçim', value: 'Şefin şirniyyatları' }, { label: 'Stil', value: 'Zərif və mövsümi' }, { label: 'Dad', value: 'Yüngül, tarazlaşdırılmış' }] },
+    zeroWaste: { title: 'Sıfır Tullantı Məhsulları', description: 'Davamlı ev məhsullarının seçilmiş kolleksiyası.', items: ['Ev konservləri', 'Təkrar istifadə edilmiş', 'Eko qablaşdırma', 'Hədiyyə üçün ideal', 'Hər gün 12:00 – 22:30'], bottom: [{ label: 'Fəlsəfə', value: 'Davamlılıq' }, { label: 'Qablaşdırma', value: 'Təkrar istifadə' }, { label: 'Qeyd', value: 'Düşünülmüş və ekoloji' }] }
+  }
+};
