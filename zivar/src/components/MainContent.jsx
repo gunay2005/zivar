@@ -97,7 +97,9 @@ function ExperienceModal({ isOpen, onClose, type, experience }) {
 // ============ ГЛАВНЫЙ КОМПОНЕНТ ============
 export default function MainContent() {
   const { t } = useTranslation();
-import { experiences, gallery, contact } from '../data';
+  const { data: experiences, loading, error } = useFetch('/experiences');
+  const { data: gallery } = useFetch('/gallery');
+  const { data: contact } = useFetch('/contact');
   const reservationHook = usePost('/reservations');
   const newsletterHook = usePost('/newsletter');
 
@@ -127,8 +129,8 @@ import { experiences, gallery, contact } from '../data';
     catch (err) { console.error('Newsletter error:', err); }
   };
 
-//   if (loading) return <div className="pt-32 text-center text-[#8A7E6E]"><ZivarLogo size="medium" /></div>;
-//   if (error) return <div className="pt-32 text-center text-red-500"><p>Error: {error}</p></div>;
+  if (loading) return <div className="pt-32 text-center text-[#8A7E6E]"><ZivarLogo size="medium" /></div>;
+  if (error) return <div className="pt-32 text-center text-red-500"><p>Error: {error}</p></div>;
 
   return (
     <main>
