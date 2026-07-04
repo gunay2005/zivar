@@ -36,8 +36,13 @@ export default {
     desserts: { title: 'Desserts', cta: 'Explore' },
     zeroWaste: { title: 'Zero Waste Products', cta: 'Celebrate' }
   },
+    common: {
+    scrollToDiscover: 'Scroll to Discover',
+    prev: 'Back',      // ← добавить
+    next: 'Next',      // ← добавить
+  },
   story: {
-    subtitle: 'Our Philosophy',
+    subtitle: 'Our Story',
     title: 'Crafted with Passion',
     description: 'At ZIVAR, we believe in the power of simplicity. Every dish tells a story of local farmers, sustainable practices, and culinary innovation.',
     cta: 'Read Our Story'

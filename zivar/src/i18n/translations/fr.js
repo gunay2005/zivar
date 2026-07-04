@@ -3,6 +3,11 @@ export default {
   hero: { subtitle: 'Cuisine Contemporaine', title1: 'Moderne', title2: 'Minimal', description: 'Ingrédients purs. Technique réfléchie. Saveurs élégantes.', cta: 'Découvrir Notre Philosophie' },
   reservation: { title: 'Réserver une Table', date: 'Date', time: 'Heure', guests: 'Invités', name: 'Nom', phone: 'Téléphone ou Email', occasion: 'Occasion / Demande Spéciale', button: 'Réserver une Table', success: 'Réservation confirmée !', placeholderName: 'Votre nom complet', placeholderPhone: '+994 50 123 45 67', placeholderOccasion: 'Anniversaire' },
   experiences: { title: 'Expériences', viewAll: 'Voir Tout' },
+  common: {
+  scrollToDiscover: 'Faites défiler',
+  prev: 'Retour',
+  next: 'Suivant',
+},
   story: { subtitle: 'Notre Histoire', title: 'Un dévouement au goût et à l\'harmonie.', description: 'Chez ZIVAR, nous célébrons la pureté des ingrédients et la beauté du détail. Notre cuisine est un dialogue entre tradition et innovation, façonné avec respect pour la nature et la saison.', cta: 'Lire Notre Histoire' },
   gallery: { title: 'Galerie', subtitle: 'Atmosphère, créée avec soin.', viewFull: 'Voir la Galerie Complète' },
   contact: { title: 'Nous Visiter', subtitle: 'Nous serions ravis de vous accueillir.', address: 'Port Baku Tower, 153 Av. Neftchilar. Bakou, AZ1010, Azerbaïdjan', phone: '+994 12 404 00 00', email: 'info@zivar.az', hours: 'Lun – Dim : 12:00 – 00:00', instagram: 'Instagram', followUs: 'Suivez-nous', at: '@zivar.restaurant' },

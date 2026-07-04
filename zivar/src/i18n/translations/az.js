@@ -3,6 +3,11 @@ export default {
   hero: { subtitle: 'Müasir Mətbəx', title1: 'Müasir', title2: 'Minimal', description: 'Təmiz ingredientlər. Düşünülmüş texnika. Zərif dadlar.', cta: 'Fəlsəfəmizi kəşf edin' },
   reservation: { title: 'Masa Rezerv Et', date: 'Tarix', time: 'Saat', guests: 'Qonaqlar', name: 'Ad', phone: 'Telefon və ya Email', occasion: 'Münasibət / Xüsusi İstək', button: 'Masa Rezerv Et', success: 'Rezervasiya təsdiqləndi!', placeholderName: 'Tam adınız', placeholderPhone: '+994 50 123 45 67', placeholderOccasion: 'İldönümü' },
   experiences: { title: 'Təcrübələr', viewAll: 'Hamısına bax' },
+  common: {
+  scrollToDiscover: 'Kəşf etmək üçün sürüşdürün',
+  prev: 'Geri',
+  next: 'İrəli',
+},
   story: { subtitle: 'Bizim Hekayəmiz', title: 'Tada və harmoniyaya həsr olunmuşdur.', description: 'ZIVAR-da biz ingredientlərin saflığını və detalların gözəlliyini qeyd edirik. Mətbəximiz təbiiətə və fəsillərə hörmətlə hazırlanmış ənənə və innovasiya arasında dialoqdur.', cta: 'Hekayəmizi oxuyun' },
   gallery: { title: 'Qalereya', subtitle: 'Yaradılmış atmosfer.', viewFull: 'Tam qalereyaya bax' },
   contact: { title: 'Bizi Ziyarət Edin', subtitle: 'Sizi qarşılamaqdan məmnun olarıq.', address: 'Port Baku Qülləsi, Neftçilər pr. 153. Bakı, AZ1010, Azərbaycan', phone: '+994 12 404 00 00', email: 'info@zivar.az', hours: 'B.e – B: 12:00 – 00:00', instagram: 'İnstaqram', followUs: 'Bizi İzləyin', at: '@zivar.restaurant' },

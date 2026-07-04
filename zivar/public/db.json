@@ -7,7 +7,15 @@
       "subtitle": "Discover",
       "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
       "price": 85,
-      "currency": "AZN"
+      "currency": "AZN",
+      "items": [
+        { "id": 1, "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800", "title": "Spring Greens Salad", "description": "Fresh arugula, baby spinach, radish, lemon vinaigrette" },
+        { "id": 2, "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800", "title": "Pan-Seared Sea Bass", "description": "Seasonal vegetables, saffron beurre blanc" },
+        { "id": 3, "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800", "title": "Wild Mushroom Risotto", "description": "Porcini, chanterelle, parmesan crisp" },
+        { "id": 4, "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800", "title": "Herb-Crusted Lamb", "description": "Mint jus, roasted root vegetables" },
+        { "id": 5, "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800", "title": "Farm Vegetable Tart", "description": "Goat cheese, caramelized onions, thyme" },
+        { "id": 6, "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800", "title": "Seasonal Fruit Plate", "description": "Local berries, honeycomb, mint" }
+      ]
     },
     {
       "id": 2,
@@ -19,7 +27,15 @@
       "currency": "AZN",
       "winePairingPrice": 70,
       "availableFrom": "17:00",
-      "availableTo": "22:30"
+      "availableTo": "22:30",
+      "items": [
+        { "id": 1, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800", "title": "Amuse-Bouche", "description": "Compressed watermelon, feta espuma" },
+        { "id": 2, "image": "https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?w=800", "title": "Cured Salmon", "description": "Dill oil, pickled cucumber, rye crisp" },
+        { "id": 3, "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800", "title": "Truffle Soup", "description": "Wild mushroom consommé, black truffle" },
+        { "id": 4, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800", "title": "Wagyu Beef", "description": "A5 grade, bone marrow, red wine reduction" },
+        { "id": 5, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800", "title": "Artisan Cheese", "description": "Selection of 5 local cheeses, honeycomb" },
+        { "id": 6, "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800", "title": "Chocolate Sphere", "description": "70% dark chocolate, passion fruit center" }
+      ]
     },
     {
       "id": 3,
@@ -28,7 +44,15 @@
       "subtitle": "Explore",
       "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800",
       "price": 35,
-      "currency": "AZN"
+      "currency": "AZN",
+      "items": [
+        { "id": 1, "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800", "title": "Pistachio Baklava", "description": "Layered filo, crushed pistachios, rose syrup" },
+        { "id": 2, "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800", "title": "Chocolate Fondant", "description": "Molten center, vanilla bean ice cream" },
+        { "id": 3, "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800", "title": "Citrus Tart", "description": "Yuzu curd, burnt meringue, shortcrust" },
+        { "id": 4, "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=800", "title": "Tiramisu", "description": "Mascarpone, espresso, cocoa, ladyfingers" },
+        { "id": 5, "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800", "title": "Berry Pavlova", "description": "Crisp meringue, seasonal berries, cream" },
+        { "id": 6, "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800", "title": "Caramel Panna Cotta", "description": "Silky vanilla, salted caramel, praline" }
+      ]
     },
     {
       "id": 4,
@@ -37,30 +61,38 @@
       "subtitle": "Celebrate",
       "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800",
       "price": null,
-      "currency": "AZN"
+      "currency": "AZN",
+      "items": [
+        { "id": 1, "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800", "title": "Root-to-Stem Broth", "description": "Vegetable scraps, herbs, slow-simmered" },
+        { "id": 2, "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=800", "title": "Fermented Pickles", "description": "Seasonal vegetables, house brine" },
+        { "id": 3, "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800", "title": "Compost Bread", "description": "Spent grain, sourdough starter" },
+        { "id": 4, "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800", "title": "Citrus Cordial", "description": "Peels, organic sugar, sparkling water" },
+        { "id": 5, "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800", "title": "Herb Infused Oils", "description": "Leftover herbs, cold-pressed olive oil" },
+        { "id": 6, "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=800", "title": "Seed Crackers", "description": "Pumpkin, sunflower, flax, sesame" }
+      ]
     }
   ],
-  "gallery": [
-    {
-      "id": 1,
-      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400",
-      "alt": "Minimal dining table"
-    },
-    {
-      "id": 2,
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
-      "alt": "Elegant restaurant interior"
-    },
-    {
-      "id": 3,
-      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400",
-      "alt": "Gourmet plated dish"
-    },
-    {
-      "id": 4,
-      "image": "https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?w=400",
-      "alt": "Chef finishing a dish"
-    }
+      "gallery": [
+    { "id": 1, "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800", "alt": "Minimal dining table" },
+    { "id": 2, "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800", "alt": "Elegant restaurant interior" },
+    { "id": 3, "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800", "alt": "Gourmet plated dish" },
+    { "id": 4, "image": "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?w=800", "alt": "Chef finishing a dish" },
+    { "id": 5, "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800", "alt": "Fresh salad bowl" },
+    { "id": 6, "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800", "alt": "Artisan dessert" },
+    { "id": 7, "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800", "alt": "Gourmet dish" },
+    { "id": 8, "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800", "alt": "Seasonal ingredients" },
+    { "id": 9, "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800", "alt": "Breakfast spread" },
+    { "id": 10, "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800", "alt": "Healthy bowl" },
+    { "id": 11, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800", "alt": "Pizza craft" },
+    { "id": 12, "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800", "alt": "Steak perfection" },
+    { "id": 13, "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800", "alt": "Kitchen atmosphere" },
+    { "id": 14, "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800", "alt": "Sweet pastries" },
+    { "id": 15, "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=800", "alt": "Cake detail" },
+    { "id": 16, "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800", "alt": "Family dinner" },
+    { "id": 17, "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800", "alt": "Fresh produce" },
+    { "id": 18, "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800", "alt": "Cocktail bar" },
+    { "id": 19, "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=800", "alt": "Wine selection" },
+    { "id": 20, "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=800", "alt": "Spices and herbs" }
   ],
   "contact": {
     "id": 1,
