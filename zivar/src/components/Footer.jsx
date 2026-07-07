@@ -14,18 +14,18 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="py-8 px-6 lg:px-8 border-t border-zivar-beige">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="text-xs text-zivar-stone">{t('footer.rights')}</p>
-        <div className="flex items-center gap-6">
+    <footer className="py-5 px-4 lg:px-6 border-t border-[#E8E0D5] overflow-x-hidden">
+      <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
+        <p className="text-[10px] text-[#8A7E6E]">{t('footer.rights')}</p>
+        <div className="flex items-center gap-4">
           {links.map(l => (
-            <a key={l.label} href={l.href} className="text-xs text-zivar-stone hover:text-zivar-stone-dark transition-colors">{l.label}</a>
+            <a key={l.label} href={l.href} className="text-[10px] text-[#8A7E6E] hover:text-[#2C2820] transition-colors">{l.label}</a>
           ))}
         </div>
-        <button onClick={scrollToTop} className="flex items-center gap-2 text-xs text-zivar-stone hover:text-zivar-gold transition-colors group">
+        <button onClick={scrollToTop} className="flex items-center gap-1.5 text-[10px] text-[#8A7E6E] hover:text-[#C4973A] transition-colors group">
           {t('footer.backToTop')}
-          <span className="w-8 h-8 rounded-full border border-zivar-stone group-hover:border-zivar-gold flex items-center justify-center transition-colors">
-            <ArrowUp size={14} />
+          <span className="w-6 h-6 rounded-full border border-[#C8BBA8] group-hover:border-[#C4973A] flex items-center justify-center transition-colors">
+            <ArrowUp size={12} />
           </span>
         </button>
       </div>
